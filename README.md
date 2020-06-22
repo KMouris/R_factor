@@ -22,5 +22,6 @@ Its main purpose is to convert the received precipitation and temperature into .
     
 ## Output data
 = .csv file for each cell, containing the precipitation value for each available time interval
-
+* File name: OriginalRow_OriginalColumn in the raster
+    * This information will be used in the “RFactor_5” program in order to recreate the original raster, assigning the corresponding R factor to each cell, in its original position
 
