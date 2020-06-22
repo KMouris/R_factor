@@ -19,5 +19,8 @@ Its main purpose is to convert the received precipitation and temperature into .
 * temp= binary variable
     * True means you are introducing temperature files. 
     * False means you are not introducing temperature files. In the resulting file, the temperature value will be 9999
+    
+## Output data
+= .csv file for each cell, containing the precipitation value for each available time interval
 
 
