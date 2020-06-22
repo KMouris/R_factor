@@ -7,8 +7,8 @@ Its main purpose is to convert the received precipitation and temperature into .
     
 ## Input data
 * path_precip = folder location where the precipitation rasters are found
- * Files must be in .txt form 
- * File name must be in the format: YearMonthDay_Hour (YYYYMMDD_0HH)
+ - Files must be in .txt form 
+ - File name must be in the format: YearMonthDay_Hour (YYYYMMDD_0HH)
 * path_temp= folder location where the temperature rasters are found
  * Files must be in .txt form 
  * File name must be in the format: YearMonthDay_Hour (YYYYMMDD_0HH)
