@@ -15,4 +15,9 @@ Its main purpose is to convert the received precipitation and temperature into .
     * There must be one temperature file for each precipitation file. 
     * Temperature and precipitation rasters must have the same resolution (same number of cells)
     * It is not mandatory to introduce temperature values (see input file 4)
+* savepath= folder location where the .csv files created by the program will be saved
+* temp= binary variable
+    * True means you are introducing temperature files. 
+    * False means you are not introducing temperature files. In the resulting file, the temperature value will be 9999
+
 
