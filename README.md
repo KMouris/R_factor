@@ -34,15 +34,4 @@ The program checks for the following information:
 * It does NOT check if the precipitation files and temperature files correspond to the same dates. It combines the precipitation with the temperature in the same order they are read in the folder 
 
 ## Main functions in the program
-### Main loops
-* Precipitation Loop
-    * Reads through the precipitation files in the “path_precip” folder 
-    * Saves the name (which contains the date of the precipitation records)
-    * Saves the raster file in a Numpy Array, ignoring the first 6 rows (which contain raster properties information)
-    * Calls Precipitation function, which returns a 3D matrix with the precipitation values for each cell. Each cell corresponds to an array in the 3D array
-* Temperature Loop
-    * Enters only if the user inputs a temperature folder and “temp” variable is equal to True.
-    * Reads through the temperature files in the “path_temp” folder directory.
-    * Saves file name (which contains the date of the temperature records)
-    * Calls Temperature function to save the temperature record to the corresponding precipitation value, for each cell, in the 3D array. 
-
+A detailed description of the functions is included in the manual.
