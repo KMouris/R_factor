@@ -25,3 +25,8 @@ Its main purpose is to convert the received precipitation and temperature into .
 * File name: OriginalRow_OriginalColumn in the raster
     * This information will be used in the “RFactor_5” program in order to recreate the original raster, assigning the corresponding R factor to each cell, in its original position
 
+## Error checks 
+The program checks for the following information: 
+* If the input file directories and the result directories exist 
+* If there are an equal number of precipitation and temperature files, in case the temp binary variable is True 
+* It does NOT check if the precipitation files and temperature files correspond to the same dates. It combines the precipitation with the temperature in the same order they are read in the folder 
