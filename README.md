@@ -1,6 +1,8 @@
 # Purpose
 Python package for calculating the R factor based on gridded data with high temporal resolution
 
+Main code is RFactor_5, whereas RasterManipulation_2 is used to pre-process the raw data
+
 # RasterManipulation_2 
 
 Its main purpose is to convert the received precipitation and temperature into .csv files that can be used to calculate the R factor for each cell with the program RFactor_5. 
