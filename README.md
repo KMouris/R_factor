@@ -3,6 +3,10 @@ Python package for calculating the R factor based on gridded data with high temp
 
 Main code is RFactor_5, whereas RasterManipulation_2 is used to pre-process the raw data
 
+# RFactor_5
+
+Calculates the R factor on a per storm, per month and per year basis for each cell in the original Raster, and generates an output raster for each time frame with the corresponding R factors for each cell. The resulting Rasters can be opened in GIS program in order to be used in the RUSLE equation. 
+
 # RasterManipulation_2 
 
 Its main purpose is to convert the received precipitation and temperature into .csv files that can be used to calculate the R factor for each cell with the program RFactor_5. 
