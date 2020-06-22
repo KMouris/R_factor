@@ -34,4 +34,4 @@ The program checks for the following information:
 * It does NOT check if the precipitation files and temperature files correspond to the same dates. It combines the precipitation with the temperature in the same order they are read in the folder 
 
 ## Main functions in the program
-A detailed description of the functions is included in the manual.
+A detailed description of the functions is included in the user manual.
