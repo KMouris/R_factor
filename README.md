@@ -8,7 +8,7 @@ Main code is RFactor_5, whereas RasterManipulation_2 is used to pre-process the 
 Calculates the R factor on a per storm, per month and per year basis for each cell in the original Raster, and generates an output raster for each time frame with the corresponding R factors for each cell. The resulting Rasters can be opened in GIS program in order to be used in the RUSLE equation. 
 
 ## Input data
-### Strom Event Input
+### Storm Event Input
 * time_interval: User must input the time discretization of the precipitation records. This input will be checked with one of the input files. If the input value doesn’t coincide with input files, then an error is produced. 
 * min_6Hours: minimum precipitation value (in mm) in a 6 hour time step that must be met in order to either start a storm event or decide when the event ends. If this value is set to 0, a storm will start when a precipitation record is greater than 0, and will end when, in a 6 hour window, the total precipitation is 0. Panagos et al, (2015) sets this value at 1.27 mm. 
 * min_P: minimum total storm precipitation (in mm) in order to consider the given storm as erosive. If the value is set to 0, all storms will be considered, regardless of the total precipitation value. Panagos et. Al (2015) sets this value as 12.7 mm. 
